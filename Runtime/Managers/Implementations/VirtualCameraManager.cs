@@ -1,5 +1,5 @@
 using UnityEngine;
-using Cinemachine;
+using Unity.Cinemachine;
 
 namespace GameplayIngredients
 {
@@ -17,6 +17,5 @@ namespace GameplayIngredients
             Camera = GetComponent<Camera>();
             Brain = GetComponent<CinemachineBrain>();
         }
-
     }
 }
