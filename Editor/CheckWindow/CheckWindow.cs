@@ -279,7 +279,7 @@ namespace GameplayIngredients.Editor
             else
                 m_IgnoredLists.Clear();
 
-            var all = FindObjectsOfType<IgnoredCheckResults>().ToList();
+            var all = FindObjectsByType<IgnoredCheckResults>(FindObjectsSortMode.None).ToList();
             foreach(var one in all)
             {
                 if (!m_IgnoredLists.ContainsKey(one.gameObject.scene))

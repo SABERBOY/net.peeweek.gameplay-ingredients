@@ -69,7 +69,7 @@ namespace GameplayIngredients.Editor
 
             GameObject go = mainObject as GameObject;
             Scene scene = go.scene;
-            var ignoredResults = Object.FindObjectsOfType<IgnoredCheckResults>();
+            var ignoredResults = Object.FindObjectsByType<IgnoredCheckResults>(FindObjectsSortMode.None);
             IgnoredCheckResults targetResults = null;
 
             foreach(var result in ignoredResults)
