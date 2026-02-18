@@ -244,7 +244,7 @@ namespace GameplayIngredients.Editor
             // Populate rigs
             Dictionary<Rig.UpdateMode, Dictionary<int, List<Rig>>> allRigs = new Dictionary<Rig.UpdateMode, Dictionary<int, List<Rig>>>();
 
-            var list = FindObjectsOfType<Rig>().ToList();
+            var list = FindObjectsByType<Rig>(FindObjectsSortMode.None).ToList();
             if (list.Count == 0)
                 return;
 

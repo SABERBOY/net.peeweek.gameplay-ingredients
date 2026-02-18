@@ -48,7 +48,7 @@ namespace GameplayIngredients.Editor
 
             var activeScene = SceneManager.GetActiveScene();
 
-            ScenePOVRoot[] allRoots = GameObject.FindObjectsOfType<ScenePOVRoot>();
+            ScenePOVRoot[] allRoots = Object.FindObjectsByType<ScenePOVRoot>(FindObjectsSortMode.None);
             ScenePOVRoot activePOV = null; 
             foreach (var povRoot in allRoots)
             {

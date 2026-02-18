@@ -123,8 +123,6 @@ Please select a package depending on your project's render loop. If you do not k
                 GUILayout.FlexibleSpace();
                 using (new GUILayout.VerticalScope())
                 {
-                    if (GUILayout.Button("Built-in Renderer"))
-                        AssetDatabase.ImportPackage("Packages/net.peeweek.gameplay-ingredients/StarterAssets/GameplayIngredients-Starter-BuiltInRenderer.unitypackage", false);
                     if (GUILayout.Button("HD Render Pipeline"))
                         AssetDatabase.ImportPackage("Packages/net.peeweek.gameplay-ingredients/StarterAssets/GameplayIngredients-Starter-HDRP.unitypackage", false);
                     if (GUILayout.Button("Universal Render Pipeline"))

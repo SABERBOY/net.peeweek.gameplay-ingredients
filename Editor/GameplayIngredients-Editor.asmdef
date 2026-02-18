@@ -7,7 +7,7 @@
         "GameplayIngredients",
         "Unity.ugui",
         "Unity.Timeline",
-        "Cinemachine",
+        "Unity.Cinemachine",
         "Unity.InputSystem"
     ],
     "includePlatforms": [
@@ -19,6 +19,12 @@
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [],
-    "versionDefines": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.cinemachine",
+            "expression": "3.0.0",
+            "define": "PACKAGE_CINEMACHINE_3"
+        }
+    ],
     "noEngineReferences": false
 }

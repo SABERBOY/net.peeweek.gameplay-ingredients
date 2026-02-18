@@ -187,7 +187,7 @@ namespace GameplayIngredients.Editor
             if (clear)
                 discoverObjects.Clear();
 
-            Discover[] newOnes = FindObjectsOfType<Discover>();
+            Discover[] newOnes = FindObjectsByType<Discover>(FindObjectsSortMode.None);
 
             // Add new ones
             foreach (var item in newOnes)
