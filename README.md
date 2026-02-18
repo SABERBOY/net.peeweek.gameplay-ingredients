@@ -8,12 +8,14 @@ Gameplay Ingredients for your Unity Games - A collection of scripts that ease si
 
 ## Requirements
 
-* **Unity 2020.3** for latest version 
-  * (Older releases are still compatible with 2018.3 / 2019.1 / 2019.2 / 2019.3 / 2020.3)
+* **Unity 6000.0** for latest version 
+  * (Older releases are still compatible with 2018.3 / 2019.1 / 2019.2 / 2019.3 / 2020.3 / 2021.3 / 2022.3)
 
 * (**Optional, for older versions or development** : Command-line Git installed on your system, for example [Git For Windows](https://gitforwindows.org/))
 
-## How to install (2020.2 and Newer)
+* **Scriptable Render Pipelines**  : Starting with Unity 6 compatibility, Gameplay Ingredients is only compatible with standard SRPs (URP/HDRP). Built-in render pipeline is no longer supported.
+
+## How to install (6000.0 and Newer)
 
 * In Unity, Open **Project Settings** Window (Edit/Project Settings) and navigate to **Package Manager**
 * Add a new **Scoped Registry** that references the [openupm registry](https://openupm.com): `https://package.openupm.com`
@@ -24,7 +26,7 @@ Gameplay Ingredients for your Unity Games - A collection of scripts that ease si
 * Open the Package Manager window (Window/Package Manager) and Select **Packages : My Registries** in the toolbar.
 * Select Gameplay Ingredients in the list, then click the Install Button
 
-## How to install as Local Package (2020.2 and Newer)
+## How to install as Local Package (6000 and Newer)
 
 * Clone the repository.
 * In Unity, Open **Project Settings** Window (Edit/Project Settings) and navigate to **Package Manager**
@@ -56,7 +58,7 @@ You can check that the package was imported by looking at the project window, un
 
 Gameplay Ingredients comes at latest version with the following compatibility:
 
-**Unity 2021.3 +** : choose the tag  : ![openupm](https://img.shields.io/npm/v/net.peeweek.gameplay-ingredients?label=openupm&registry_uri=https://package.openupm.com)
+**Unity 6000 +** : choose the tag  : ![openupm](https://img.shields.io/npm/v/net.peeweek.gameplay-ingredients?label=openupm&registry_uri=https://package.openupm.com)
 
 #### Older Versions
 
@@ -64,3 +66,4 @@ Gameplay Ingredients comes at latest version with the following compatibility:
 * **Unity 2019.1 / 2019.2 :** choose the tag `2019.1.2` 
 * **Unity 2019.3 / 2020.1**  : choose the  the tag `2019.3.7` 
 * **Unity 2020.3**  : choose the  the tag `2020.2.11` 
+* **Unity 2021.3**  : choose the  the tag `2021.3.2` 
