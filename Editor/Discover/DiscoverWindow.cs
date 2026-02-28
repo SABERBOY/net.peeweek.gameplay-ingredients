@@ -95,7 +95,7 @@ namespace GameplayIngredients.Editor
         }
 
         [SerializeField]
-        public DiscoverAsset discoverAsset { get; private set; }
+        public DiscoverAsset discoverAsset;/* { get; private set; } */
         Texture2D header;
         bool forceGlobal;
 
